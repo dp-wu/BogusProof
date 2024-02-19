@@ -1,0 +1,8 @@
+{% load static %}
+{% static "img/logo.png" as logo %}
+
+<img src="{{ logo }}" alt="logo:bogusproof">
+<nav class="nav_bar">
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'projects' %}">Projects</a>
+</nav>

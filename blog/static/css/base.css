@@ -1,0 +1,23 @@
+body {
+  margin: auto;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin: auto;
+  position: fixed;
+  top: 0;
+  width: 98vw;
+  height: 10vw;
+  padding: 1vw;
+  border: aqua solid 1px;
+  display: inline-block;
+}
+
+main {
+  margin: auto;
+  position: relative;
+  border: red solid 1px;
+}
